@@ -21,10 +21,14 @@ public class DriverClass {
         bst.insert(1);
         bst.insert(4);
         bst.insert(13);
-        System.out.println("\n-------------------");
+        System.out.println("\nPreOrderTraversal");
+        bst.preOrderTraversal();
         System.out.println("In Order Traversal");
         bst.inOrderTraversal();
+        BstNode root = null;
         
-        bst.print();
+        bst.print("", root, false);
     }
 }
+
+
