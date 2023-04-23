@@ -63,11 +63,11 @@ public void print(String string, boolean par){
 }
 private void print(String prefix, BstNode node, boolean isLeft){
     if(node != null){
-        System.out.println(node.getData);
-        
+        System.out.println(node.getData);        
     }
 }
 }
+
 
 
 
