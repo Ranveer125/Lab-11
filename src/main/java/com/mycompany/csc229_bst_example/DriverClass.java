@@ -25,9 +25,9 @@ public class DriverClass {
         bst.preOrderTraversal();
         System.out.println("In Order Traversal");
         bst.inOrderTraversal();
-        BstNode root = null;
+        System.out.print("\nHeight of the tree: " + bst.findHeight());
         
-        bst.print("", root, false);
+        bst.print("",  false);
     }
 }
 
