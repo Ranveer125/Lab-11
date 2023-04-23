@@ -66,18 +66,27 @@ public class BinarySearchTree {
     public Integer findHeight() {
 
         // ToDo 3: Find the height of a tree
+        return null;
+
+        // ToDo 3: Find the height of a tree
     }
 
     
 
     public int getDepth(BstNode node) {
         //ToDo 4: complete getDepth of a node 
+        return 0;
+        //ToDo 4: complete getDepth of a node 
     }
     
-   public void print() {
+   public void print(String string, BstNode root1, boolean par) {
        System.out.println("\n==== BST Print ===== \n");
         print("", root, false);
         // ToDo 5: complete the print of the BST
+    }
+
+    private void doPreOrder(BstNode root) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
 
 
